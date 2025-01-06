@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIA Tote Haven</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            color: #ffffff;
+        }
+        header {
+            background-color: #000000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #8d5200;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 50px;
+            background-image:radial-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('HIA TOTE HAVEN.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: white;
+            padding: 100px 0;
+        }
+        .hero h2 {
+            margin-bottom: 10px;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .product {
+            background-color: #8d5200;
+            border: 1px solid #000000;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgb(255, 255, 255);
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        .product-details {
+            padding: 15px;
+            text-align: center;
+        }
+        .product-details h3 {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+        .product-details p {
+            margin: 5px 0;
+            color: #ffffff;
+        }
+        .product-details button {
+            background-color: #000000;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .product-details button:hover {
+            background-color: #000000;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #8d5200;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HIA Tote Haven</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#location">Location</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section class="hero">
+        <h2>Welcome to HIA Tote Haven</h2>
+        <p>"Gaya ramah lingkungan di setiap langkah"</p>
+    </section>
+    <section id="about" class="hero">
+        <h2>About HIA</h2>
+        <p>HIA Tote Haven,HIA merujuk pada singkatan dari nama (Heru, Ivan, Alfariansyah), memberikan sentuhan personal dan identitas pada brand.Tote menunjukkan jenis produk yang ditawarkan, yaitu tote bag, yang dikenal karena fungsionalitas dan gaya. Haven, tempat yang aman dan nyaman serta memberikan kesan elegan, ekslusivitas, dan kualitas tinggi bagi pelanggan mereka. </p>
+        <p>Secara keseluruhan, HIA Tote Haven menciptakan kesan bahwa tote bag ini adalah pilihan yang ideal untuk gaya hidup yang aktif dan modern, sekaligus memberikan kenyamanan dan kepraktisan bagi penggunanya. Nama ini juga memberikan nuansa yang hangat dan ramah, menarik bagi konsumen yang mencari tas yang stylish dan fungsional. </p>
+    <section id="Our Product" class="hero">
+        <h2>Our Product</h2>
+    </section>
+    <section id="products" class="products">
+        <div class="product">
+            <img src="Tote Bag.png" alt="Tampak Depan">
+            <div class="product-details">
+                <h3>Tampak Depan</h3>
+                <p>blablablablabla</p>
+                
+            </div>
+        </div>
+        <div class="product">
+            <img src="HIA TOTE HAVEN 1.png" alt="Tampak Belakang">
+            <div class="product-details">
+                <h3>Tampak Belakang</h3>
+                <p>blablablablabla</p>
+                
+            </div>
+        </div>
+    </section>
+    <section id="location" class="hero">
+        <h3>Our Location</h3>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.8143954006237!2d109.35487787507027!3d-0.08036699991884078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e1d5b00038f451d%3A0x7f8e0df096a474d3!2sHIA%20Tote%20Haven!5e0!3m2!1sid!2sid!4v1736065802894!5m2!1sid!2sid"
+            width="1000"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </section>
+    <section id="contact" class="hero">
+        <h2>Contact Us</h2>
+        <a href="https://www.instagram.com/hiatotehaven" target="_blank">
+            <img src="IG.jpeg" alt="Logo" style="width: 50px; height: 50px; border-radius: 8px; border: 2px solid #333; padding: 5px; background-color: #f8f9fa; cursor: pointer;">
+        </a>
+        <a href="https://www.tiktok.com/@hiatotehaven" target="_blank">
+            <img src="Tiktok.jpeg" alt="Logo" style="width: 50px; height: 50px; border-radius: 8px; border: 2px solid #333; padding: 5px; background-color: #f8f9fa; cursor: pointer;">
+        </a>
+        
+        <a href="https://youtube.com/@hiatotehaven" target="_blank">
+            <img src="YT.jpeg" alt="Logo" style="width: 50px; height: 50px; border-radius: 8px; border: 2px solid #333; padding: 5px; background-color: #f8f9fa; cursor: pointer;">
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=61571341059344&mibextid=ZbWKwL" target="_blank">
+            <img src="FB1.jpeg" alt="Logo" style="width: 50px; height: 50px; border-radius: 8px; border: 2px solid #333; padding: 5px; background-color: #f8f9fa; cursor: pointer;">
+        </a>
+        <a href="https://wa.me/6285756657677" target="_blank">
+            <img src="WA.jpeg" alt="Logo" style="width: 50px; height: 50px; border-radius: 8px; border: 2px solid #333; padding: 5px; background-color: #f8f9fa; cursor: pointer;">
+        </a>
+        <a href="hiatotehaven@gmail.com" target="_blank">
+            <img src="EMAIL.jpeg" alt="Logo" style="width: 50px; height: 50px; border-radius: 8px; border: 2px solid #333; padding: 5px; background-color: #f8f9fa; cursor: pointer;">
+        </a>
+    </section>
+    <footer>
+        <p>&copy; 2025 HIA Tote Haven. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
